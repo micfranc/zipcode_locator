@@ -1,11 +1,6 @@
 from tkinter import *
-from PIL import ImageTk,Image
 import requests
 import json
-from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
-import time
-from bs4 import BeautifulSoup
 
 root = Tk()
 root.title('Find Zipcode')
